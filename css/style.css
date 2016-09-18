@@ -1,0 +1,233 @@
+
+#bg {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    }
+
+body{
+    font-family:'[z] Arista'; 
+    }
+@font-face {
+font-family: '[z] Arista';
+font-style: normal;
+font-weight: normal;
+src: local('[z] Arista'), url('[z] Arista.woff') format('woff');
+}
+
+
+@font-face {
+font-family: '[z] Arista Light';
+font-style: normal;
+font-weight: normal;
+src: local('[z] Arista Light'), url('[z] Arista light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: '[z] Arista ExtraFilled';
+font-style: normal;
+font-weight: normal;
+src: local('[z] Arista ExtraFilled'), url('[z] Arista ExtraFilled.woff') format('woff');
+}
+
+a{
+    font-size: 40px;
+    text-transform: uppercase;
+    top: 60;
+    left: 150px;
+    }
+.navbar-inverse{
+    background-color: transparent;
+    position: absolute;
+    }
+.navbar{
+    height: 120px;
+    }
+img.navbar-brand{
+    height: 140px;
+    background-color: transparent;
+    }
+
+/* Style za Kaj nudimo*/
+
+h3{
+	text-align:center;
+	padding-bottom:10px;
+      font-size: 26px;
+	}
+h4{
+	text-align:center;
+	padding-bottom:10px;
+       font-size: 40px;
+    color: #9d9d9d;
+    text-transform: uppercase;
+    
+}
+img.panel-body{
+    width: 350px;
+    height: 300px;
+}
+.komplet{
+	height:650px;
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+    padding-top: 50px;
+    left: 60px;
+    top: 850px;
+    position: absolute;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    	}
+
+.panel{
+	margin-left:auto;
+	margin-right:auto;
+	height:350px;
+	width: 350px;
+	margin:20px;
+    top: 15px;
+    display:inline-block;
+    	}
+.panel-heading{
+    background-color:#9d9d9d; 
+}
+.panel-title{
+    font-size: 26px;
+    text-transform: uppercase;
+    }
+.panel-body{
+    padding: 0;
+    background-color: white;
+}
+
+/*Style za naroči se*/
+h5{
+	text-align:center;
+	padding-bottom:10px;
+    text-transform: uppercase;
+	}
+.komplet_naroci_se{
+	height:350px;
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+    left: 60px;
+    top: 1550px;
+    position: absolute;
+    background-color: transparent;
+	}
+
+.naroci_se{
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	width: 500px;
+	margin:10px;
+	display:inline-block;
+    text-transform: uppercase;
+	}
+
+.table{
+    background-color: white;
+     text-transform: uppercase;
+}
+td,tr{
+    border: 2px;
+    border-style: double;
+    border-color: black;}
+
+    placeholder{
+    text-transform: uppercase;
+    font-family: '[z] Arista';
+    }
+
+.form-control {
+     font-size: 22px;
+    text-transform: uppercase;
+    }
+.p{
+    color: white;
+    font-size: 16;
+    text-transform: uppercase;
+}
+    
+    /*Pogosta vprašanja*/
+    
+.komplet_faq{
+	height:500px;
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+    left: 50px;
+    top: 2100px;
+    position: absolute;
+    background-color: transparent;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-top: 50px;
+	}
+
+    
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-transform: uppercase;
+    font-size: 26px
+}
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+div.panel_faq {
+    padding: 0 0px;
+    background-color: white;
+    margin-bottom: 3px solid transparent;
+    display: none;
+    text-transform: uppercase;
+    
+}
+div.panel_faq.show {
+    display: block;
+}
+div.footer_komplet{
+	height:150px;
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+    left: 60px;
+    top: 2650px;
+    position: absolute;
+   	}
+div.kontakt{
+    height:200px;
+	width:250px;
+    color: #9d9d9d;
+    text-transform: uppercase;
+   display: inline-block;
+    font-size: 18px;
+}
+div.navigacija{
+    height:200px;
+	width:250px;
+    color: #9d9d9d;
+    text-transform: uppercase;
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+   }
+navi{
+    list-style: none
+}
+kontakt.a{
+    font-size: 12px;
+}
